@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   > 
+      
+    <LinearLayout
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <View style="@style/vertical_layout"/>
+	<TextView 
+	  android:id="@+id/text1"    
+	  android:layout_width="60dp"
+	  android:layout_height="wrap_content"
+	  style="@style/MidText"   
+	  android:gravity="center_vertical|center_horizontal"
+	  android:padding="10dp"
+	  android:singleLine="true"
+	/>
+	<View style="@style/vertical_layout"/>
+	<TextView 
+	  android:id="@+id/text2"    
+	  android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      style="@style/MidText"
+      android:gravity="center_vertical|center_horizontal"
+      android:padding="10dp"
+      android:singleLine="true"
+	/>
+	<View style="@style/vertical_layout"/>
+	<TextView 
+	  android:id="@+id/text3"    
+	  android:layout_width="200dp"
+   	  android:layout_height="wrap_content"
+   	  style="@style/MidText"   
+	  android:gravity="center_vertical|center_horizontal"
+	  android:padding="10dp"
+	  android:singleLine="true"
+	/>
+	<View style="@style/vertical_layout"/>
+	<TextView 
+	  android:id="@+id/text4"    
+	  android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      style="@style/MidText"   
+      android:gravity="center_vertical|center_horizontal"
+      android:padding="10dp"
+      android:singleLine="true"
+	/>
+	<View style="@style/vertical_layout"/>
+	<TextView 
+	  android:id="@+id/text5"    
+	  android:layout_width="150dp"
+      android:layout_height="wrap_content"
+   	  style="@style/MidText"
+      android:gravity="center_vertical|center_horizontal"
+      android:padding="10dp"
+      android:singleLine="true"
+	/>
+	<View style="@style/vertical_layout"/>
+	<TextView 
+	  android:id="@+id/text6"    
+	  android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      style="@style/MidText"
+      android:gravity="center_vertical|center_horizontal"
+      android:singleLine="true"
+	/><View style="@style/vertical_layout"/>
+	<TextView 
+	  android:id="@+id/text7"    
+	  android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      style="@style/MidText"
+      android:gravity="center_vertical|center_horizontal"
+      android:singleLine="true"
+	/>
+	
+    </LinearLayout>
+	<View style="@style/horizontal_layout"/>
+</LinearLayout>

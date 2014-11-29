@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="head_bg">#b0e0e6</color>
+    <color name="touming">#00000000</color>
+    <color name="simiple_button_color">#FFF</color>
+  	<color name="link_color">#FF0066CC</color>  
+</resources>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/register"
+        android:orderInCategory="100"
+        android:title="@string/login_label_sigreg"/>
+     <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:title="@string/sys_exit"/>
+
+</menu>

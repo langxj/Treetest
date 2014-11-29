@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string-array name="autho_list">
+        <item>管理员</item>
+        <item>检验员</item>
+        <item>接收员</item>
+        <item>生产员</item>
+    </string-array>   
+    <string-array name="modifytype_list">
+        <item>零公里</item>
+        <item>验车</item>
+        <item>落成</item>
+        <item>完整</item>
+    </string-array>   
+</resources>

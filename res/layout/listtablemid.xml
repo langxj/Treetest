@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_login"
+    android:orientation="vertical" >
+
+  <!-- padding 内边距   layout_margin 外边距
+  		android:layout_alignParentTop 布局的位置是否处于顶部 -->
+
+  <LinearLayout
+      android:id="@+id/login_div"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    
+      
+       >
+      <TextView style="@style/largeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:text="@string/table_train_num"/>
+        <EditText
+            android:id="@+id/editSub"
+            style="@style/largeText"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:hint="@string/table_train_num_hint"
+            android:inputType="text"
+            android:singleLine="true" >
+        </EditText>
+         <TextView
+            style="@style/largeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"            
+            android:text="@string/table_train_attach"/>
+
+        <EditText
+            android:id="@+id/editAttach"
+            style="@style/largeText"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:hint="@string/table_train_attach_hint"
+            android:inputType="text"
+            android:singleLine="true" >
+
+        </EditText>
+
+        <TextView
+            style="@style/largeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/table_receive_group" />
+
+        <Spinner
+            android:id="@+id/Spinner01"
+            style="@style/spinner_stylemid"
+            android:layout_width="150dip"
+            android:layout_height="39dp"
+            android:animationCache="true"
+            android:drawSelectorOnTop="true" >
+  
+        </Spinner>      
+        <TextView
+            style="@style/largeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/table_problem"/>
+
+        <EditText
+            android:id="@+id/editContent"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            style="@style/largeText"
+            android:hint="@string/table_content_hint"
+            android:inputType="text"
+             >
+        </EditText>
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/largeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button"
+            android:text="@string/table_commit" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button"
+            style="@style/largeText"
+            android:text="@string/table_add_new" />
+          <!-- <Button
+            android:id="@+id/photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button"
+             style="@style/largeText"
+            android:text="@string/table_add_photo" />-->
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+   <LinearLayout
+       android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <View style="@style/horizontal_layout"/>
+    <View style="@style/horizontal_layout"/>
+    <ListView 
+    android:id="@+id/listview"   
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:cacheColorHint="#00000000"
+    android:divider="@drawable/scanframeline"
+    />
+    <View style="@style/horizontal_layout"/>
+   </LinearLayout>
+   <View style="@style/vertical_layout"/>
+	</LinearLayout>
+	</HorizontalScrollView>
+</LinearLayout>

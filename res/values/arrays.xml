@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="plantes">
+		<item>解体车间</item>
+		<item>机车车间</item>
+		<item>调试车间</item>
+		<item>柴油机车间</item>
+		<item>附件车间</item>
+	</string-array>
+</resources>
